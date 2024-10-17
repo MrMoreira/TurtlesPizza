@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/dash', function () {
+    
     return view('dash');
 });

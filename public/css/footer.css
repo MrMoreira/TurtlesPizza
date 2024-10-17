@@ -1,0 +1,56 @@
+@import url(/Assets/Css/root.css);
+
+/*Pode Quebrar o Site*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************************************/
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    color: var(--text2-color);
+    
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social img {
+    width: 30px;
+    height: 35px;
+    margin: 0px;
+    padding-right: 8px;
+}
+
+/*Alinhamento do texto social*/
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: space-justify;
+    color: var(--text2-color);
+    text-decoration: none;
+}

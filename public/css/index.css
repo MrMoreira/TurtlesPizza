@@ -1,0 +1,51 @@
+@import url(/Assets/Css/root.css);
+
+main {
+    background-image: url(/Assets/img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Reduzido para 60% da altura da tela */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.n1 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.n1 h1 {
+    font-size: 2.5em; /* Tamanho ajustado */
+    margin: 0;
+}
+
+.n1 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.n1 p {
+    margin: 20px 0;
+}
+
+/* Estilo para o botão */
+.n1 button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-color); /* Cor do botão */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.n1 button:hover {
+    background-color: var(--main-color); /* Cor do botão ao passar o mouse */
+}
