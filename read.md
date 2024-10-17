@@ -4,4 +4,4 @@ Poderia rodar isso para instalar os componetes caso nao tenha
 
 Para rodar o projeto
 
-#--> composer run dev
+#--> php artisan serve
