@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
+
+<head>
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}"> <!-- Inclui o CSS -->
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}"> <!-- Inclui o CSS -->
     <link rel="stylesheet" href="{{ asset('css/root.css') }}"> <!-- Inclui o CSS -->
-    </head>
-    <body>
-        <!-- Inclui a navbar -->
-       <!-- @include('templates.navbar')  Inclui a navbar -->
-        
+</head>
 
-        <!-- Inclui o footer -->
-        <!--@include('templates.footer')  Inclui a navbar -->
+<body>
+    <!-- Inclui a navbar -->
+    <!-- @include('templates.navbar')  Inclui a navbar -->
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Dashboard</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius autem quaerat laborum nisi.
+                        Reprehenderit sint quam esse enim pariatur eveniet facere numquam cum voluptatem, totam ratione
+                        ipsum voluptas doloremque itaque.
+                    </p>
+                    <button>Não Clica</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgprince">
+
+        </div>
+    </main>
+
+
+
+    <!-- Inclui o footer -->
+    <!--@include('templates.footer')  Inclui a navbar -->
     </script>
-    </body>
+</body>
+
 </html>
