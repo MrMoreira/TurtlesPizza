@@ -55,3 +55,74 @@
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.493);
     cursor: pointer;
 }
+
+/*
+        <div class="category">
+            <!--    
+            Tipos de Pizza no menu categoria 
+            Salgadas, Doces, Bebidas, Porções, Sobremesas
+            -->
+            <div class="salgadas">
+                <img src="/public/img/salgada.png" alt="Salgadas">
+                <p>Salgadas</p>
+            </div>
+            <div class="doces">
+                <img src="/public/img/doces.png" alt="Doces">
+                <p>Doces</p>
+            </div>
+            <div class="bebidas">
+                <img src="/public/img/bebidas.png" alt="Bebidas">
+                <p>Bebidas</p>
+            </div>
+            <div class="porcoes">
+                <img src="/public/img/porcoes.png" alt="Porções">
+                <p>Porções</p>
+            </div>
+            <div class="sobremesas">
+                <img src="/public/img/sobremesas.png" alt="Sobremesas">
+                <p>Sobremesas</p>
+            </div>
+        </div>
+*/
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    max-width: 100%;
+}
+
+.category img {
+    width: 150px;
+    height: 150px;
+}
+
+.category p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+/*Animation and padding*/
+
+.category img {
+    transition: all 0.3s;
+}
+
+.category img:hover {
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+}
+
+.category div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
