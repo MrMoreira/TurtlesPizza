@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 50%;
 }
 
@@ -56,34 +56,17 @@
     cursor: pointer;
 }
 
-/*
-        <div class="category">
-            <!--    
-            Tipos de Pizza no menu categoria 
-            Salgadas, Doces, Bebidas, Porções, Sobremesas
-            -->
-            <div class="salgadas">
-                <img src="/public/img/salgada.png" alt="Salgadas">
-                <p>Salgadas</p>
-            </div>
-            <div class="doces">
-                <img src="/public/img/doces.png" alt="Doces">
-                <p>Doces</p>
-            </div>
-            <div class="bebidas">
-                <img src="/public/img/bebidas.png" alt="Bebidas">
-                <p>Bebidas</p>
-            </div>
-            <div class="porcoes">
-                <img src="/public/img/porcoes.png" alt="Porções">
-                <p>Porções</p>
-            </div>
-            <div class="sobremesas">
-                <img src="/public/img/sobremesas.png" alt="Sobremesas">
-                <p>Sobremesas</p>
-            </div>
-        </div>
-*/
+/*.main-inbox p:nth-last-child(1) colocar animacao transicao, e outros */
+
+.main-inbox p:nth-last-child(1):hover {
+    background-color: var(--text2-color);
+    color: var(--main-color);
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+/*Category*/
 
 .category {
     display: flex;
