@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}"> <!-- Inclui o CSS -->
     <link rel="stylesheet" href="{{ asset('css/root.css') }}"> <!-- Inclui o CSS -->
     <link rel="stylesheet" href="{{ asset('css/mainp.css') }}"> <!-- Inclui o CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+
     </head>
     <body>
         <!-- Inclui a navbar -->
@@ -48,9 +50,29 @@
                 </div>
             </div>
         </main>
+        <section class="info-pizza">
+        <div id="lottie-container"></div>
 
-        <!-- Inclui o footer -->
-        @include('templates.footer') <!-- Inclui a navbar -->
+        <div class="info-right-text">
+            <h1>Entrega Rápida e Confiável</h1>
+            <p>Sabemos que a sua fome não pode esperar! Por isso, garantimos a entrega do seu pedido em até 30 minutos.
+                Se não cumprirmos nosso compromisso, a pizza é por nossa conta! Aproveite a comodidade de saborear
+                nossas deliciosas pizzas no conforto da sua casa.
+            </p>
+        </div>
+    </section>
+
+    <!-- Inclui o footer -->
+    @include('templates.footer') <!-- Inclui o footer -->
+    <script>
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-container'), // ID do contêiner onde a animação será renderizada
+            renderer: 'svg',         // Formato da animação (SVG é o mais comum)
+            loop: true,              // Define se a animação será em loop
+            autoplay: true,          // Define se a animação começará automaticamente
+            path: 'lottlie/Food.json' // Caminho para o arquivo .json da animação
+        });
     </script>
+    
     </body>
 </html>

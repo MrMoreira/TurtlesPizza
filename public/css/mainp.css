@@ -109,11 +109,56 @@
 }
 
 
+
+/*
+    <section class="info-pizza">
+        <div id="lottie-container"></div>
+        
+        <div class="info-right-text">
+            <h1>Conheça Nossas Pizzas</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam voluptas laborum, perspiciatis,
+                culpa deleniti exercitationem velit natus unde, necessitatibus repellat at architecto enim corporis eos
+                illum. Minima, ipsa officia.
+            </p>
+        </div>
+    </section>
+*/
+
+/*info-pizza*/
+
+/*Lottie*/
+
 #lottie-container {
-    width: 300px;   /* Largura da animação */
-    height: 300px;  /* Altura da animação */
+    height: 75vh;
+    width: 75vw;
     margin: auto;   /* Centraliza na página */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-pizza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    margin-inline: 23%;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .info-pizza {
+        /*remove margin-inline*/
+        margin-inline: 0%;
+    }
+
+    .info-right-text {
+        margin-inline: 5%;
+    }
+
+    #lottie-container {
+        height: 100%;
+        width: 100%;
+    }
 }
