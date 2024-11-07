@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/root.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mainp.css') }}"> <!-- Inclui o CSS -->
     <link rel="stylesheet" href="/public/css/mainp.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js" ></script>
 </head>
 
 <body>
@@ -53,12 +54,38 @@
     </main>
 
     <section class="info-pizza">
-
+        <div class="info-left-img">
+            <img src="/public/img/pizza.png" alt="Pizza">
+        </div>
+        <div id="lottie-container"></div>
+        
+        <div class="info-right-text">
+            <h1>Conheça Nossas Pizzas</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam voluptas laborum, perspiciatis,
+                culpa deleniti exercitationem velit natus unde, necessitatibus repellat at architecto enim corporis eos
+                illum. Minima, ipsa officia.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam voluptas laborum, perspiciatis,
+                culpa deleniti exercitationem velit natus unde, necessitatibus repellat at architecto enim corporis eos
+                illum. Minima, ipsa officia.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam voluptas laborum, perspiciatis,
+                culpa deleniti exercitationem velit natus unde, necessitatibus repellat at architecto enim corporis eos
+                illum. Minima, ipsa officia.
+            </p>
     </section>
 
 
     <!-- Inclui o footer -->
     <!--@include('templates.footer')  Inclui a navbar -->
+    <script>
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-container'), // ID do contêiner onde a animação será renderizada
+            renderer: 'svg',         // Formato da animação (SVG é o mais comum)
+            loop: true,              // Define se a animação será em loop
+            autoplay: true,          // Define se a animação começará automaticamente
+            path: '/public/lottlie/Food.json' // Caminho para o arquivo .json da animação
+        });
     </script>
 </body>
 

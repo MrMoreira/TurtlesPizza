@@ -1,13 +1,13 @@
 <footer class="footer">
         <div class="logo">
             <img src="/img/logo.png" alt="logo">
-            <h2>João Frango</h2>
+            <h2>C&V Pizzaria</h2>
         </div>
             <!--Contatos and tell-->
         <div class="contatos">
              <h3>Contatos</h3>
             <p>Telefone: (11) 4002-8922</p>
-            <p>Email: joao@frango.com </p>
+            <p>Email: ola@cvpizza.com</p>
         </div>
         <div class="social">
             <h3>Redes Sociais</h3>

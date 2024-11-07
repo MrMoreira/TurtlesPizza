@@ -109,3 +109,11 @@
 }
 
 
+#lottie-container {
+    width: 300px;   /* Largura da animação */
+    height: 300px;  /* Altura da animação */
+    margin: auto;   /* Centraliza na página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
