@@ -7,16 +7,16 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cardapio.html">Cardápio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cardapio">Cardápio</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contato</a></li>
             </ul>
         </div>
         <div class="menu2">
             <ul>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/cadastro">Cadastro</a></li>
             </ul>
 
         </div>

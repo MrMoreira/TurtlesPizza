@@ -3,10 +3,16 @@
 
 *{
     font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }	
 
 :root{
     --text-color: #000000;
     --text2-color: #ffffff;
     --main-color: #ff7b00;
+
+    /*Others files*/
+    --another-dark: #161718;
+    --blanco-color: #ffff;
+    --cinza: #d8d8d88e;
 }
