@@ -1,7 +1,7 @@
 <nav class="nav">
         <!--logo-->
         <div class="logo">
-            <a href="index.html">
+            <a href="/">
                 <img src="/img/logo.png" alt="Logo da Pizzaria">
             </a>
         </div>

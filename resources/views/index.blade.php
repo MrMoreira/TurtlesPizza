@@ -16,11 +16,11 @@
             <div class="main-inbox">
                 <p>Para Os Amantes De Pizza</p>
                 <h1>A Melhor Pizza Da Cidade</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam voluptas laborum, perspiciatis,
-                    culpa deleniti exercitationem velit natus unde, necessitatibus repellat at architecto enim corporis eos
-                    illum. Minima, ipsa officia.
+                <p>Descubra a melhor pizza da cidade! Nossas massas são preparadas com carinho e os ingredientes são frescos
+                e selecionados. Cada fatia é uma explosão de sabor que vai conquistar seu coração. Venha saborear a
+                verdadeira paixão por pizza!
                 </p>
-                <p>Clique Aqui</p>
+                <p>Venha Conhecer</p>
             </div>
 
             <div class="category">
