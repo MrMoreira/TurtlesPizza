@@ -1,0 +1,59 @@
+@import url(/Assets/Css/root.css);
+
+
+/*
+
+<body>
+    <section class="cmain">
+        <div class="img-a">
+            <img src="/public/img/pizzastore.jpg" alt="">
+        </div>
+        <div class="about">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nam unde, id similique incidunt et itaque,
+            harum sed adipisci quibusdam perferendis rem maiores ratione facere fuga pariatur impedit dicta. Non!
+        </div>
+    </section>
+</body>
+*/
+
+.cmain {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.img-a img {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.about p {
+    margin-left: 25px;
+ 
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
