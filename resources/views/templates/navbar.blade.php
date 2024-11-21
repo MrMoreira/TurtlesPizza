@@ -10,7 +10,6 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/cardapio">Cardápio</a></li>
                 <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contato</a></li>
             </ul>
         </div>
         <div class="menu2">

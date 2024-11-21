@@ -9,10 +9,16 @@
 
     </head>
     <body>
+        
         <!-- Inclui a navbar -->
         @include('templates.navbar') <!-- Inclui a navbar -->
-        
+
+        @if (session('success'))
+        @include('templates.mensagem')
+        @endif
+
         <main class="main-p">
+        
             <div class="main-inbox">
                 <p>Para Os Amantes De Pizza</p>
                 <h1>A Melhor Pizza Da Cidade</h1>
@@ -28,27 +34,25 @@
                 Tipos de Pizza no menu categoria 
                 Salgadas, Doces, Bebidas, Porções, Sobremesas
                 -->
+
+            <a href="/cardapio">
                 <div class="salgadas">
                     <img src="/img/salgada.png" alt="Salgadas">
                     <p>Salgadas</p>
                 </div>
+            </a>
+            <a href="/cardapio#Pizzas-Doces">
                 <div class="doces">
                     <img src="/img/doces.png" alt="Doces">
                     <p>Doces</p>
                 </div>
+            </a>
+            <a href="/cardapio#Bebidas">    
                 <div class="bebidas">
                     <img src="/img/bebidas.png" alt="Bebidas">
                     <p>Bebidas</p>
                 </div>
-                <div class="porcoes">
-                    <img src="/img/porcoes.png" alt="Porções">
-                    <p>Porções</p>
-                </div>
-                <div class="sobremesas">
-                    <img src="/img/sobremesas.png" alt="Sobremesas">
-                    <p>Sobremesas</p>
-                </div>
-            </div>
+            </a>     
         </main>
         <section class="info-pizza">
         <div id="lottie-container"></div>
