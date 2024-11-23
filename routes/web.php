@@ -18,6 +18,11 @@ Route::get('/sobre', function () {
     return view('sobre');
 });
 
+Route::get('/dashboard', function () {
+    return view('clientarea');
+});
+
+
 Route::get('/cardapio', function () {
     return view('cardapio');
 })->name('produtos');

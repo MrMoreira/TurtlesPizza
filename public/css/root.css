@@ -11,6 +11,15 @@
     --text2-color: #ffffff;
     --main-color: #ff7b00;
 
+    --main-color-dark: #e66b00;
+    --main-color-light: #fff1e6;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+
     /*Others files*/
     --another-dark: #161718;
     --blanco-color: #ffff;
