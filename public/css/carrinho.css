@@ -1,25 +1,5 @@
 @import url(root.css);
 
-.floating-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    color: var(--text2-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    cursor: pointer;
-}
-
-.floating-button:hover {
-    background-color: #66a0ec;
-}
 
 .btn-primary {
     background-color: var(--main-color) !important;

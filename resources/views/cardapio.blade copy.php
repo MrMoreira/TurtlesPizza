@@ -34,7 +34,7 @@
                         <input type="hidden" name="nome" value="Calabresa">
                         <input type="hidden" name="preco" value="72.90">
                         <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                        <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                        <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
                     </form>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <input type="hidden" name="nome" value="3 Queijos">
                 <input type="hidden" name="preco" value="55.90">
                 <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -71,7 +71,7 @@
                 <input type="hidden" name="nome" value="Pepperoni">
                 <input type="hidden" name="preco" value="72.90">
                 <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -90,7 +90,7 @@
                 <input type="hidden" name="nome" value="Portuguesa">
                 <input type="hidden" name="preco" value="79.90">
                 <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -110,7 +110,7 @@
                 <input type="hidden" name="nome" value="Frango Grelhado">
                 <input type="hidden" name="preco" value="79.90">
                 <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -130,7 +130,7 @@
                 <input type="hidden" name="nome" value="Napolitana">
                 <input type="hidden" name="preco" value="69.90">
                 <input type="hidden" name="imagem" value="https://media.istockphoto.com/id/1494273340/pt/foto/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=612x612&w=0&k=20&c=tImY3W2LwZeUvnLjc12fKq1S-NZXrSr75zw39WzLYYA=">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -144,7 +144,7 @@
 
 <div class="col">
     <div class="card" style="width: 18rem;">
-        <img src="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900" class="card-img-top" alt="Chocolate com Morango">
+        <img src="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900" class="card-img-top" alt="Chocolate com Morango">
         <div class="card-body">
             <h5 class="card-title">Chocolate com Morango</h5>
             <p class="card-text">Massa doce, chocolate ao leite, morangos frescos, chocolate.</p>
@@ -153,8 +153,8 @@
                 @csrf
                 <input type="hidden" name="nome" value="Chocolate com Morango">
                 <input type="hidden" name="preco" value="29.90">
-                <input type="hidden" name="imagem" value="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <input type="hidden" name="imagem" value="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900">
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -162,7 +162,7 @@
 
 <div class="col">
     <div class="card" style="width: 18rem;">
-        <img src="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900" class="card-img-top" alt="Banana com Canela">
+        <img src="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900" class="card-img-top" alt="Banana com Canela">
         <div class="card-body">
             <h5 class="card-title">Banana com Canela</h5>
             <p class="card-text">Massa doce, banana, canela, açúcar mascavo.</p>
@@ -171,8 +171,8 @@
                 @csrf
                 <input type="hidden" name="nome" value="Banana com Canela">
                 <input type="hidden" name="preco" value="39.90">
-                <input type="hidden" name="imagem" value="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <input type="hidden" name="imagem" value="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900">
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -180,7 +180,7 @@
 
 <div class="col">
     <div class="card" style="width: 18rem;">
-        <img src="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900" class="card-img-top" alt="Nutella e Marshmallow">
+        <img src="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900" class="card-img-top" alt="Nutella e Marshmallow">
         <div class="card-body">
             <h5 class="card-title">Nutella e Marshmallow</h5>
             <p class="card-text">Massa doce, Nutella, marshmallows.</p>
@@ -189,8 +189,8 @@
                 @csrf
                 <input type="hidden" name="nome" value="Nutella e Marshmallow">
                 <input type="hidden" name="preco" value="39.90">
-                <input type="hidden" name="imagem" value="https://forneriaoriginal.com/img/cardapio/pizzas/CHOCOLATE-LEITE-MEIO-AMARGO-MORANGO/img-1.png?w=900">
-                <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                <input type="hidden" name="imagem" value="https://img.freepik.com/fotos-premium/foto-de-estudio-de-uma-pizza-de-chocolate-em-um-fundo-branco-ia-geradora_63135-5991.jpg?w=900">
+                <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
             </form>
         </div>
     </div>
@@ -219,7 +219,7 @@
                         <input type="hidden" name="nome" value="Refrigerante Lata (350 ml)">
                         <input type="hidden" name="preco" value="4.50">
                         <input type="hidden" name="imagem" value="https://suculentaburger.instantdelivery.com.br/_core/_uploads/331/2024/04/14392304240k913ggggf.jpg">
-                        <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                        <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
                     </form>
                 </div>
             </div>
@@ -237,7 +237,7 @@
                         <input type="hidden" name="nome" value="Suco Natural (1 L)">
                         <input type="hidden" name="preco" value="10.90">
                         <input type="hidden" name="imagem" value="https://www.padariapampulha.com.br/wp-content/uploads/2023/12/95587.png">
-                        <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                        <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
                     </form>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                         <input type="hidden" name="nome" value="Água Mineral (500 ml)">
                         <input type="hidden" name="preco" value="2.50">
                         <input type="hidden" name="imagem" value="https://static.paodeacucar.com/img/uploads/1/132/11825132.jpg">
-                        <button type="submit" class="btn btn-primary">Adicionar ao Pedido</button>
+                        <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
                     </form>
                 </div>
             </div>
