@@ -139,16 +139,7 @@ turtlespizza/
 ├── resources/            # Recursos do sistema
 │   └── views/            # Arquivos de visualização
 │       └── templates/    # Templates reutilizáveis (layouts, partials)
-│
-├── app/                  # Diretório do núcleo do aplicativo
-│   ├── controllers/      # Controladores (lógica do negócio)
-│   ├── models/           # Modelos (interação com o banco de dados)
-│   └── routes/           # Rotas da aplicação
-│
-├── config/               # Arquivos de configuração
-├── database/             # Scripts e migrações do banco de dados
-├── index.php             # Arquivo principal para inicialização
-└── turtlespizza.sql      # Dump do banco de dados
+└── 
 ```
 ## 🌐 Páginas do Sistema
 
